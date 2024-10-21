@@ -7,7 +7,7 @@ killall python || { echo "Failed to terminate Python processes. Some processes m
 
 # Update and Install Keyring
 wget --no-check-certificate https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb || { echo "Failed to download keyring. Exiting."; exit 1; }
-dpkg -i kali-archive-keyring_2022.1_all.deb || { echo "Failed to install keyring. Exiting."; exit 1; }
+dpkg -i kali-archive-keyring_2024.1_all.deb || { echo "Failed to install keyring. Exiting."; exit 1; }
 
 # Update package list
 echo "[*] Updating package list..."
